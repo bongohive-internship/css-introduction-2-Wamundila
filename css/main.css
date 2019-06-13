@@ -25,3 +25,27 @@ body {
 	position: relative;
 	/*clip-path: polygon(0 0, 70% 0, 70% 10vh, 100% 10%, 100% 100%, 0 100% )*/
 }
+.logo-box {
+	position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.logo {
+    height: 55px;
+}
+.cta-box {
+	position: relative;
+	top: 30%;
+	text-align: center;
+}
+.cta {
+	font-size: 50px;
+	font-weight: 700;
+	color: white;
+	
+}
+.cta-message {
+	font-size: 15px;
+	color: white;
+	
+}
