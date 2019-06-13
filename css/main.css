@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: "Roboto Regular";
+	src: url("../fonts/Roboto-Regular.tff");
+}
+
+body {
+	font-family:"Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.7;
+	color: rgb(0,0,0);
+}
+
+.header {
+	height: 95vh;
+
+	background-image: linear-gradient(to right bottom,#30303000, #303030b7), url(../images/beautiful-blur-bright-326055.jpg);
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	/*clip-path: polygon(0 0, 70% 0, 70% 10vh, 100% 10%, 100% 100%, 0 100% )*/
+}
